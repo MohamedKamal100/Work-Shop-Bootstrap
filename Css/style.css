@@ -44,10 +44,9 @@ html {
 .main-heading {
   margin-bottom: 80px;
   text-align: center;
-  position: relative;
 }
 
-.main-heading h2 {
+.main-heading span {
   font-size: 40px;
 
   position: relative;
@@ -56,7 +55,7 @@ html {
   z-index: 4;
   font-weight: 900;
 }
-.main-heading h2::after {
+.main-heading span::after {
   content: " ";
   right: 0;
   height: 30px;
